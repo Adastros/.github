@@ -1,0 +1,26 @@
+name: "Bug Issue Template"
+description: "Issue template to document/fix bugs in a project"
+labels: ["complexity: missing", "feature: missing", "size: missing"]
+
+body:
+  - type: input
+    id: overview
+    attributes:
+      label: Overview
+      description: Clearly and briefly state the purpose of this issue.
+    validations:
+      required: true
+  - type: textarea
+    id: action-items
+    attributes:
+      label: Action Items
+      description: "List the research to be done, or the steps to be completed."
+    validations:
+      required: true
+  - type: textarea
+    id: resources-instructions
+    attributes:
+      label: Resources/Instructions
+      description: "Provide links to resources or instructions that may help with this issue. This can include files to be worked on, external sites with solutions, documentation, etc."
+    validations:
+      required: true
