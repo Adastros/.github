@@ -2,7 +2,7 @@ name: "General Issue Template"
 description: "General issue template for any issues that the other issue templates do not cover"
 
 body:
-  - type: input
+  - type: textarea
     id: overview
     attributes:
       label: Overview

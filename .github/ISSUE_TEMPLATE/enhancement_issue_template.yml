@@ -3,7 +3,7 @@ description: "Issue template to enhance existing feature"
 labels: ["complexity: missing", "feature: missing", "size: missing"]
 
 body:
-  - type: input
+  - type: textarea
     id: overview
     attributes:
       label: Overview

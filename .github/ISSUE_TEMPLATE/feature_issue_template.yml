@@ -3,7 +3,7 @@ description: "Issue template to add or remove a feature"
 labels: ["complexity: missing", "feature: missing", "size: missing"]
 
 body:
-  - type: input
+  - type: textarea
     id: overview
     attributes:
       label: Overview
